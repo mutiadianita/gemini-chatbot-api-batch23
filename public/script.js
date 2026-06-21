@@ -246,6 +246,7 @@ function markdownToHtml(text) {
       .replace(/&lt;/g, '<')
       .replace(/&gt;/g, '>');
   });
+  
 
   return html;
 }
